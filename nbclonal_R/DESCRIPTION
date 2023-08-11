@@ -1,0 +1,21 @@
+Package: nbclonal
+Type: Package
+Title: Calculate Clonal Mutations And Estimate Transmission Bottleneck
+Version: 0.1.0
+Authors@R: c(person("Yike", "Shi", role = c("aut", "cre"), email = "mxteresa.shi@gmail.com"),
+    person("Katia", "Koelle", role = "ctb", email = "katia.koelle@email.edu"))
+Author: Yike Shi [aut, cre],
+    Katia Koelle [ctb]
+Description: This package contains functions that enable you to calculate clonal 
+    mutations given sets of parameters and estimate transmission bottleneck with 
+    an observed data set. 
+URL: https://github.com/MXTeresa/nbclonal
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    parallel,
+    forcats,
+    tidyverse,
+    reshape
+RoxygenNote: 7.2.3
