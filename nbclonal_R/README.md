@@ -9,7 +9,7 @@ Some of the functions in this package uses `parallrl:mclapply()` to reduce the r
 You can install this package using `devtools`:
 
 ```r
-devtools::install_github("MXTeresa/nbclonal")
+devtools::install_github("koellelab/nbclonal/nbclonal_R")
 ```
 
 # Overview
@@ -23,4 +23,4 @@ ls("package:nbclonal")
 
 # Sample usage and plotting
 
-Please see the file [NbClonal.Rmd](https://github.com/MXTeresa/nbclonal/blob/50ef89de021f88cebcc56960e791efbc2c83b04b/NbClonal.Rmd) and the generated pdf file [NbClonal.pdf](https://github.com/MXTeresa/nbclonal/blob/50ef89de021f88cebcc56960e791efbc2c83b04b/NbClonal.pdf) for a detailed description of each function, how they are developed, and ways to plot the results. Since some of the functions has been updated after generating this pdf, the functions may vary a little bit as the ones included in the package. Please use the final version of the functions listed in the package instead of copy-pasting functions from the pdf and rmd file.
+Please see the file [NbClonal.Rmd](https://github.com/koellelab/nbclonal/blob/04f06a4d85ca0f5aa55aa651cc6ac251d8758dcb/nbclonal_R/NbClonal.Rmd) and the generated pdf file [NbClonal.pdf](https://github.com/koellelab/nbclonal/blob/04f06a4d85ca0f5aa55aa651cc6ac251d8758dcb/nbclonal_R/NbClonal.pdf) for a detailed description of each function, how they are developed, and ways to plot the results. Since some of the functions has been updated after generating this pdf, the functions may vary a little bit as the ones included in the package. Please use the final version of the functions listed in the package instead of copy-pasting functions from the pdf and rmd file.
