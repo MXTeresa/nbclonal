@@ -1,6 +1,6 @@
 # nbclonal
 
-R package for calculating clonal mutations and estimating transmission bottleneck.
+R package for calculating the clonal variant probability mass function and for estimating the mean transmission bottleneck size.
 
 Some of the functions in this package uses `parallrl:mclapply()` to reduce the running time. Unfortunately, `mclapply()` can only run on mac but not on windows. If you are using an operating system other than mac, you may need to adjust the functions using `mclapply()` or simply change them into `lapply()` and modify the arguments.
 
@@ -23,4 +23,4 @@ ls("package:nbclonal")
 
 # Sample usage and plotting
 
-Please see the file [NbClonal.Rmd](https://github.com/koellelab/nbclonal/blob/04f06a4d85ca0f5aa55aa651cc6ac251d8758dcb/nbclonal_R/NbClonal.Rmd) and the generated pdf file [NbClonal.pdf](https://github.com/koellelab/nbclonal/blob/04f06a4d85ca0f5aa55aa651cc6ac251d8758dcb/nbclonal_R/NbClonal.pdf) for a detailed description of each function, how they are developed, and ways to plot the results. Since some of the functions has been updated after generating this pdf, the functions may vary a little bit as the ones included in the package. Please use the final version of the functions listed in the package instead of copy-pasting functions from the pdf and rmd file.
+Please see the file [NbClonal.Rmd](https://github.com/koellelab/nbclonal/blob/04f06a4d85ca0f5aa55aa651cc6ac251d8758dcb/nbclonal_R/NbClonal.Rmd) and the generated pdf file [NbClonal.pdf](https://github.com/koellelab/nbclonal/blob/04f06a4d85ca0f5aa55aa651cc6ac251d8758dcb/nbclonal_R/NbClonal.pdf) for a detailed description of each function, how they are developed, and ways to plot the results. 
